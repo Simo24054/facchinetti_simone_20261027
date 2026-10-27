@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo prenotazione </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">menu</a>
+            <a href="programmazione.html">Tabella ororai della settimana</a>
+            <a href="contatti.html">Orari di apertura</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>prenota il biglietto </h1>
+        <section>
+
+            <form action="#" method="post">
+           
+            <label for="nome">Nome Completo *:</label>
+            <input type="text" id="nome" name="nome" required>
+   
+
+  
+            <label for="email">Indirizzo Email *:</label>
+            <input type="email" id="email" name="email" required>
+    
+
+ 
+            <label for="data-spettacolo">Data dello Spettacolo:</label>
+            <input type="date" id="data-spettacolo" name="data_spettacolo">
+  
+      
+            <label for="film">Scegli il Film *:</label>
+            
+        
+            <label>Tipo di Biglietto:</label>
+            <input type="radio" id="intero" name="tipo_biglietto" value="intero" checked>
+            <label for="intero">Intero</label>
+            
+            <input type="radio" id="ridotto" name="tipo_biglietto" value="ridotto">
+            <label for="ridotto">Ridotto</label>
+       
+     
+            <label for="posti">Numero di Posti (max 10) *:</label>
+            <input type="number" id="posti" name="posti" min="1" max="10" value="1" required>
+       
+
+            <button type="submit">Conferma Prenotazione</button>
+
+            </form>
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
